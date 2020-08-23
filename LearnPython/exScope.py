@@ -22,3 +22,5 @@ def scope_test():
     
 scope_test()
 print("In global scope:", spam)
+
+
