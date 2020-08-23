@@ -1,0 +1,6 @@
+#Exclude dir and files
+
+Files/
+*.log
+
+
