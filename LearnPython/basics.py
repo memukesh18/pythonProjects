@@ -4,8 +4,8 @@
 
 
 '''
-This is 
-multiline 
+This is
+multiline
 comment
 section
 
@@ -14,11 +14,12 @@ section
 # if-else conditions
 
 def maxValue(a, b, c):
+    print(str(a) + " " + str(b) + " " + str(c))  //To see how values a, b, c are passed
     if((a >= b) and (c < b)): return a
     elif (a >= b):  return maxValue(a, c, b)
     else: return maxValue(b, a, c)
 
-        
+
 maxVal = maxValue(4, 40, 55)
 print("Max Value: ", str(maxVal))
 
@@ -51,4 +52,3 @@ print()
 # Accepting input from user
 x = input('please enter your name\n')
 print('hello ', x)
-
