@@ -23,3 +23,5 @@ print(', '.join(even_primes))
 print([(num, num * 2, num ** 2) for num in nums])
 
 
+
+

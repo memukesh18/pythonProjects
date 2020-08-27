@@ -16,3 +16,6 @@ print('median:',y)
 print('mode:',z)
 print('stdDev:',d)
 print('variance',v)
+
+
+

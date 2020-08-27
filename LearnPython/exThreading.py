@@ -34,3 +34,5 @@ for worker in range(20):
 q.join()
 
 print('Entire job took:', time.time()-start)
+
+
